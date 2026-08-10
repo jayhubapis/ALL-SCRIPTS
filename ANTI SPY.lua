@@ -354,4 +354,4 @@ getgenv().safeGet = safeGet
 
 getgenv().safeGet("https://httpbin.org/get")
 
-log("Loaded")
+log("working!")
